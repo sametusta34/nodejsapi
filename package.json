@@ -6,7 +6,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon ./src/index.mjs",
     "start": "node ./src/index.mjs"
-
   },
   "keywords": [],
   "author": "",
@@ -14,6 +13,8 @@
   "description": "",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "dotenv-flow": "^4.1.0",
     "express": "^4.19.2",
     "express-validator": "^7.1.0"
   },

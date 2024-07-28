@@ -16,7 +16,7 @@ export default {
     const { query: { filter, value }} = req // query string ile gelen veriyi almak için kullanılır filter ve value query string parametreleridir
 
 
-    // servis katmanın veri gönder gelen veriri res.send ile client gönderir
+    // servis katmanın veri gelen veriyi res.send ile client gönderir
 
     res.send({ message : "Welcome to the home page"});
   },
