@@ -1,5 +1,4 @@
-import dotenv from 'dotenv';
-dotenv.config();
+import envLoad from './env.loading.mjs';
 
 const config = {
     host: process.env.DB_HOST,

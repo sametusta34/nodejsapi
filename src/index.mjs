@@ -1,11 +1,5 @@
 import { startServer } from './server.mjs'; 
-import dotenv from 'dotenv';
-
-dotenv.config();
-
-process.env.NODE_ENV = process.env.NODE_ENV || 'test';
-const envFile = `.env.${process.env.NODE_ENV}`;
-dotenv.config({ path: envFile });
+import envload from './configs/env.loading.mjs';
 
 const app = startServer();
 const PORT =  process.env.API_PORT || 3000;
