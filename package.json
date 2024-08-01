@@ -16,7 +16,9 @@
     "dotenv": "^16.4.5",
     "dotenv-flow": "^4.1.0",
     "express": "^4.19.2",
-    "express-validator": "^7.1.0"
+    "express-myconnection": "^1.0.4",
+    "express-validator": "^7.1.0",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"

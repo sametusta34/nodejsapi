@@ -5,8 +5,8 @@ import  homeController from '../controllers/home.mjs';
 
 //home controller için router tanımlaması
 
-router.use("/", homeController.home);
-router.use("/about", homeController.about);
-router.use("/contact", homeController.contact);
+router.get('/', homeController.home);
+router.get('/about', homeController.about);
+router.get('/contact', homeController.contact);
 
 export default router;
